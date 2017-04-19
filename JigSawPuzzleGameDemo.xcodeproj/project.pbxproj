@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		236F3EB31E77C88900657429 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F3EB21E77C88900657429 /* main.m */; };
+		236F3EB61E77C88900657429 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F3EB51E77C88900657429 /* AppDelegate.m */; };
+		236F3EB91E77C88900657429 /* JIgSawPuzzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F3EB81E77C88900657429 /* JIgSawPuzzViewController.m */; };
+		236F3EBE1E77C88900657429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236F3EBD1E77C88900657429 /* Assets.xcassets */; };
+		236F3EC11E77C88900657429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236F3EBF1E77C88900657429 /* LaunchScreen.storyboard */; };
+		236F3ECE1E77C94F00657429 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 236F3EC81E77C94F00657429 /* img1.jpg */; };
+		236F3ECF1E77C94F00657429 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 236F3EC91E77C94F00657429 /* img2.jpg */; };
+		236F3ED01E77C94F00657429 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 236F3ECA1E77C94F00657429 /* img3.jpg */; };
+		236F3ED11E77C94F00657429 /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 236F3ECB1E77C94F00657429 /* img4.jpg */; };
+		236F3ED21E77C94F00657429 /* img5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 236F3ECC1E77C94F00657429 /* img5.jpg */; };
+		236F3ED31E77C94F00657429 /* img6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 236F3ECD1E77C94F00657429 /* img6.jpg */; };
+		236F3F091E77F21800657429 /* PuzzleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F3F081E77F21800657429 /* PuzzleImageView.m */; };
+		239834331E7A87D600C99CF8 /* EastEggView.m in Sources */ = {isa = PBXBuildFile; fileRef = 239834321E7A87D600C99CF8 /* EastEggView.m */; };
+		239834361E7A8DC800C99CF8 /* Extra.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239834351E7A8DC800C99CF8 /* Extra.xcassets */; };
+		23B7B8FC1E80C5B400542301 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 236F3EC21E77C88900657429 /* Info.plist */; };
+		23B7B8FF1E80C5CD00542301 /* JigSawPuzzleGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B7B8FD1E80C5CD00542301 /* JigSawPuzzleGame.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		236F3EAE1E77C88900657429 /* JigSawPuzzleGameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigSawPuzzleGameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		236F3EB21E77C88900657429 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		236F3EB41E77C88900657429 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		236F3EB51E77C88900657429 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		236F3EB71E77C88900657429 /* JIgSawPuzzViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIgSawPuzzViewController.h; sourceTree = "<group>"; };
+		236F3EB81E77C88900657429 /* JIgSawPuzzViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIgSawPuzzViewController.m; sourceTree = "<group>"; };
+		236F3EBD1E77C88900657429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		236F3EC01E77C88900657429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		236F3EC21E77C88900657429 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		236F3EC81E77C94F00657429 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		236F3EC91E77C94F00657429 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		236F3ECA1E77C94F00657429 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
+		236F3ECB1E77C94F00657429 /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpg; sourceTree = "<group>"; };
+		236F3ECC1E77C94F00657429 /* img5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img5.jpg; sourceTree = "<group>"; };
+		236F3ECD1E77C94F00657429 /* img6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img6.jpg; sourceTree = "<group>"; };
+		236F3F071E77F21800657429 /* PuzzleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleImageView.h; sourceTree = "<group>"; };
+		236F3F081E77F21800657429 /* PuzzleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleImageView.m; sourceTree = "<group>"; };
+		239834311E7A87D600C99CF8 /* EastEggView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EastEggView.h; sourceTree = "<group>"; };
+		239834321E7A87D600C99CF8 /* EastEggView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EastEggView.m; sourceTree = "<group>"; };
+		239834351E7A8DC800C99CF8 /* Extra.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Extra.xcassets; sourceTree = "<group>"; };
+		23B7B8FE1E80C5CD00542301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = JigSawPuzzleGameDemo/Base.lproj/JigSawPuzzleGame.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		236F3EAB1E77C88900657429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		236F3EA51E77C88900657429 = {
+			isa = PBXGroup;
+			children = (
+				23B7B8FD1E80C5CD00542301 /* JigSawPuzzleGame.storyboard */,
+				236F3EB01E77C88900657429 /* JigSawPuzzleGameDemo */,
+				236F3EAF1E77C88900657429 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		236F3EAF1E77C88900657429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				236F3EAE1E77C88900657429 /* JigSawPuzzleGameDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		236F3EB01E77C88900657429 /* JigSawPuzzleGameDemo */ = {
+			isa = PBXGroup;
+			children = (
+				236F3EB41E77C88900657429 /* AppDelegate.h */,
+				236F3EB51E77C88900657429 /* AppDelegate.m */,
+				236F3EB71E77C88900657429 /* JIgSawPuzzViewController.h */,
+				236F3EB81E77C88900657429 /* JIgSawPuzzViewController.m */,
+				239834341E7A87DE00C99CF8 /* Views */,
+				236F3EBD1E77C88900657429 /* Assets.xcassets */,
+				236F3EBF1E77C88900657429 /* LaunchScreen.storyboard */,
+				236F3EC21E77C88900657429 /* Info.plist */,
+				236F3EB11E77C88900657429 /* Supporting Files */,
+			);
+			path = JigSawPuzzleGameDemo;
+			sourceTree = "<group>";
+		};
+		236F3EB11E77C88900657429 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23B7B8F81E7FE02900542301 /* JigSawPuzzleGameImages */,
+				236F3EB21E77C88900657429 /* main.m */,
+				239834351E7A8DC800C99CF8 /* Extra.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		239834341E7A87DE00C99CF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				236F3F071E77F21800657429 /* PuzzleImageView.h */,
+				236F3F081E77F21800657429 /* PuzzleImageView.m */,
+				239834311E7A87D600C99CF8 /* EastEggView.h */,
+				239834321E7A87D600C99CF8 /* EastEggView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		23B7B8F81E7FE02900542301 /* JigSawPuzzleGameImages */ = {
+			isa = PBXGroup;
+			children = (
+				236F3ECD1E77C94F00657429 /* img6.jpg */,
+				236F3EC81E77C94F00657429 /* img1.jpg */,
+				236F3EC91E77C94F00657429 /* img2.jpg */,
+				236F3ECA1E77C94F00657429 /* img3.jpg */,
+				236F3ECB1E77C94F00657429 /* img4.jpg */,
+				236F3ECC1E77C94F00657429 /* img5.jpg */,
+			);
+			name = JigSawPuzzleGameImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		236F3EAD1E77C88900657429 /* JigSawPuzzleGameDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236F3EC51E77C88900657429 /* Build configuration list for PBXNativeTarget "JigSawPuzzleGameDemo" */;
+			buildPhases = (
+				236F3EAA1E77C88900657429 /* Sources */,
+				236F3EAB1E77C88900657429 /* Frameworks */,
+				236F3EAC1E77C88900657429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JigSawPuzzleGameDemo;
+			productName = JigSawPuzzleGameDemo;
+			productReference = 236F3EAE1E77C88900657429 /* JigSawPuzzleGameDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		236F3EA61E77C88900657429 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jianz3;
+				TargetAttributes = {
+					236F3EAD1E77C88900657429 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5F39VU65K5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 236F3EA91E77C88900657429 /* Build configuration list for PBXProject "JigSawPuzzleGameDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 236F3EA51E77C88900657429;
+			productRefGroup = 236F3EAF1E77C88900657429 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				236F3EAD1E77C88900657429 /* JigSawPuzzleGameDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		236F3EAC1E77C88900657429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B7B8FF1E80C5CD00542301 /* JigSawPuzzleGame.storyboard in Resources */,
+				239834361E7A8DC800C99CF8 /* Extra.xcassets in Resources */,
+				236F3ED11E77C94F00657429 /* img4.jpg in Resources */,
+				236F3ED21E77C94F00657429 /* img5.jpg in Resources */,
+				236F3EC11E77C88900657429 /* LaunchScreen.storyboard in Resources */,
+				236F3ED01E77C94F00657429 /* img3.jpg in Resources */,
+				236F3ED31E77C94F00657429 /* img6.jpg in Resources */,
+				236F3ECF1E77C94F00657429 /* img2.jpg in Resources */,
+				236F3ECE1E77C94F00657429 /* img1.jpg in Resources */,
+				23B7B8FC1E80C5B400542301 /* Info.plist in Resources */,
+				236F3EBE1E77C88900657429 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		236F3EAA1E77C88900657429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236F3F091E77F21800657429 /* PuzzleImageView.m in Sources */,
+				239834331E7A87D600C99CF8 /* EastEggView.m in Sources */,
+				236F3EB91E77C88900657429 /* JIgSawPuzzViewController.m in Sources */,
+				236F3EB61E77C88900657429 /* AppDelegate.m in Sources */,
+				236F3EB31E77C88900657429 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		236F3EBF1E77C88900657429 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236F3EC01E77C88900657429 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		23B7B8FD1E80C5CD00542301 /* JigSawPuzzleGame.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23B7B8FE1E80C5CD00542301 /* Base */,
+			);
+			name = JigSawPuzzleGame.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		236F3EC31E77C88900657429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		236F3EC41E77C88900657429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		236F3EC61E77C88900657429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F39VU65K5;
+				INFOPLIST_FILE = JigSawPuzzleGameDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JigSawPuzzleGameDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		236F3EC71E77C88900657429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F39VU65K5;
+				INFOPLIST_FILE = JigSawPuzzleGameDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JigSawPuzzleGameDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		236F3EA91E77C88900657429 /* Build configuration list for PBXProject "JigSawPuzzleGameDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236F3EC31E77C88900657429 /* Debug */,
+				236F3EC41E77C88900657429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		236F3EC51E77C88900657429 /* Build configuration list for PBXNativeTarget "JigSawPuzzleGameDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236F3EC61E77C88900657429 /* Debug */,
+				236F3EC71E77C88900657429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 236F3EA61E77C88900657429 /* Project object */;
+}

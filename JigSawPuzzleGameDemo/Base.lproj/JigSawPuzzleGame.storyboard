@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ig Saw Puzz View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="JIgSawPuzzViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7d-Yd-5jl">
+                                <rect key="frame" x="275" y="148" width="62" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="H4V-zu-aeR"/>
+                                    <constraint firstAttribute="height" constant="30" id="o2G-5C-y62"/>
+                                </constraints>
+                                <state key="normal" title="重新开始"/>
+                                <connections>
+                                    <action selector="reSatrtAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VHe-2o-uww"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amd-w1-Yja">
+                                <rect key="frame" x="275" y="188" width="62" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="换张拼图"/>
+                                <connections>
+                                    <action selector="changeImageView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uXq-gf-tpf"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="75f-vr-Ksg" userLabel="startView">
+                                <rect key="frame" x="16" y="28" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="FJA-wy-dTG"/>
+                                    <constraint firstAttribute="height" constant="100" id="Fur-O4-sk5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AuL-if-S7T" userLabel="finishView">
+                                <rect key="frame" x="37" y="347" width="300" height="300"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Ymp-CC-bCu"/>
+                                    <constraint firstAttribute="height" constant="300" id="tKV-pk-6Ra"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ywB-ye-H2F" userLabel="originImageView">
+                                <rect key="frame" x="256" y="28" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="91z-60-wvd"/>
+                                    <constraint firstAttribute="height" constant="100" id="a5C-I9-ky6"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="amd-w1-Yja" firstAttribute="width" secondItem="l7d-Yd-5jl" secondAttribute="width" id="7bJ-Jr-NJ6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l7d-Yd-5jl" secondAttribute="trailing" constant="22" id="I85-4R-Yhl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ywB-ye-H2F" secondAttribute="trailing" constant="3" id="INK-ys-OhV"/>
+                            <constraint firstItem="AuL-if-S7T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IRJ-cf-Sp1"/>
+                            <constraint firstItem="amd-w1-Yja" firstAttribute="top" secondItem="l7d-Yd-5jl" secondAttribute="bottom" constant="10" id="MvF-UW-Vei"/>
+                            <constraint firstItem="l7d-Yd-5jl" firstAttribute="top" secondItem="75f-vr-Ksg" secondAttribute="bottom" constant="20" id="P3h-pa-auX"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="75f-vr-Ksg" secondAttribute="leading" id="Q4h-Es-Eac"/>
+                            <constraint firstItem="ywB-ye-H2F" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="T9d-88-Mkz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AuL-if-S7T" secondAttribute="bottom" constant="20" id="cUP-7s-A96"/>
+                            <constraint firstItem="amd-w1-Yja" firstAttribute="trailing" secondItem="l7d-Yd-5jl" secondAttribute="trailing" id="iOc-pN-c9F"/>
+                            <constraint firstItem="75f-vr-Ksg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="jqM-p4-E53"/>
+                            <constraint firstItem="amd-w1-Yja" firstAttribute="height" secondItem="l7d-Yd-5jl" secondAttribute="height" id="ohs-tg-yQG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="finishView" destination="AuL-if-S7T" id="WhV-bz-0AU"/>
+                        <outlet property="originImageView" destination="ywB-ye-H2F" id="XZT-DM-DVt"/>
+                        <outlet property="startView" destination="75f-vr-Ksg" id="PtJ-gY-oqP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>
