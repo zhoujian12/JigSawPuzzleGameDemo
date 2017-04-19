@@ -47,9 +47,7 @@
     return _pan;
 }
 
-- (void)panAction:(UIPanGestureRecognizer *)pan{
-//    UIImageView *imageView = (UIImageView *)[pan view];
-    
+- (void)panAction:(UIPanGestureRecognizer *)pan{    
     if (self.imageViewPanBlock) {
         self.imageViewPanBlock(pan);
     }

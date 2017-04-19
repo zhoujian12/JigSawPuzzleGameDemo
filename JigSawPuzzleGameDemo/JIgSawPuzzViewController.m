@@ -45,7 +45,6 @@ static const CGFloat halfImageLength = 50.0f;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     //初始化数据
     [self initData];
     //初始化图片
