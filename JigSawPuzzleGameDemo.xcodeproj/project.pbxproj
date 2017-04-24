@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230280C91EADA7BC009D0A2F /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 230280C81EADA7BC009D0A2F /* UIView+frame.m */; };
 		236F3EB31E77C88900657429 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F3EB21E77C88900657429 /* main.m */; };
 		236F3EB61E77C88900657429 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F3EB51E77C88900657429 /* AppDelegate.m */; };
 		236F3EB91E77C88900657429 /* JIgSawPuzzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F3EB81E77C88900657429 /* JIgSawPuzzViewController.m */; };
@@ -21,11 +22,18 @@
 		236F3F091E77F21800657429 /* PuzzleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F3F081E77F21800657429 /* PuzzleImageView.m */; };
 		239834331E7A87D600C99CF8 /* EastEggView.m in Sources */ = {isa = PBXBuildFile; fileRef = 239834321E7A87D600C99CF8 /* EastEggView.m */; };
 		239834361E7A8DC800C99CF8 /* Extra.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239834351E7A8DC800C99CF8 /* Extra.xcassets */; };
+		23B548351EA9F3F8007A3342 /* NSString+ZJDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B548341EA9F3F8007A3342 /* NSString+ZJDateFormat.m */; };
+		23B548381EA9F555007A3342 /* NSDate+ZJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B548371EA9F555007A3342 /* NSDate+ZJCategory.m */; };
+		23B5483B1EA9F957007A3342 /* NSDateComponents+ZJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B5483A1EA9F957007A3342 /* NSDateComponents+ZJCategory.m */; };
+		23B548421EAA0CBF007A3342 /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B548401EAA0CBF007A3342 /* DateViewController.m */; };
+		23B548431EAA0CBF007A3342 /* DateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23B548411EAA0CBF007A3342 /* DateViewController.xib */; };
 		23B7B8FC1E80C5B400542301 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 236F3EC21E77C88900657429 /* Info.plist */; };
 		23B7B8FF1E80C5CD00542301 /* JigSawPuzzleGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B7B8FD1E80C5CD00542301 /* JigSawPuzzleGame.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		230280C71EADA7BC009D0A2F /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		230280C81EADA7BC009D0A2F /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
 		236F3EAE1E77C88900657429 /* JigSawPuzzleGameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigSawPuzzleGameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		236F3EB21E77C88900657429 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		236F3EB41E77C88900657429 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +54,15 @@
 		239834311E7A87D600C99CF8 /* EastEggView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EastEggView.h; sourceTree = "<group>"; };
 		239834321E7A87D600C99CF8 /* EastEggView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EastEggView.m; sourceTree = "<group>"; };
 		239834351E7A8DC800C99CF8 /* Extra.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Extra.xcassets; sourceTree = "<group>"; };
+		23B548331EA9F3F8007A3342 /* NSString+ZJDateFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZJDateFormat.h"; sourceTree = "<group>"; };
+		23B548341EA9F3F8007A3342 /* NSString+ZJDateFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZJDateFormat.m"; sourceTree = "<group>"; };
+		23B548361EA9F555007A3342 /* NSDate+ZJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZJCategory.h"; sourceTree = "<group>"; };
+		23B548371EA9F555007A3342 /* NSDate+ZJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZJCategory.m"; sourceTree = "<group>"; };
+		23B548391EA9F957007A3342 /* NSDateComponents+ZJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateComponents+ZJCategory.h"; sourceTree = "<group>"; };
+		23B5483A1EA9F957007A3342 /* NSDateComponents+ZJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateComponents+ZJCategory.m"; sourceTree = "<group>"; };
+		23B5483F1EAA0CBF007A3342 /* DateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateViewController.h; sourceTree = "<group>"; };
+		23B548401EAA0CBF007A3342 /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = "<group>"; };
+		23B548411EAA0CBF007A3342 /* DateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateViewController.xib; sourceTree = "<group>"; };
 		23B7B8FE1E80C5CD00542301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = JigSawPuzzleGameDemo/Base.lproj/JigSawPuzzleGame.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,9 +77,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23354E601EAC945700C6FE7D /* ZJView */ = {
+			isa = PBXGroup;
+			children = (
+				230280C71EADA7BC009D0A2F /* UIView+frame.h */,
+				230280C81EADA7BC009D0A2F /* UIView+frame.m */,
+			);
+			name = ZJView;
+			sourceTree = "<group>";
+		};
 		236F3EA51E77C88900657429 = {
 			isa = PBXGroup;
 			children = (
+				23B548281EA9E53E007A3342 /* ZJCocoa */,
 				23B7B8FD1E80C5CD00542301 /* JigSawPuzzleGame.storyboard */,
 				236F3EB01E77C88900657429 /* JigSawPuzzleGameDemo */,
 				236F3EAF1E77C88900657429 /* Products */,
@@ -84,6 +111,9 @@
 				236F3EB51E77C88900657429 /* AppDelegate.m */,
 				236F3EB71E77C88900657429 /* JIgSawPuzzViewController.h */,
 				236F3EB81E77C88900657429 /* JIgSawPuzzViewController.m */,
+				23B5483F1EAA0CBF007A3342 /* DateViewController.h */,
+				23B548401EAA0CBF007A3342 /* DateViewController.m */,
+				23B548411EAA0CBF007A3342 /* DateViewController.xib */,
 				239834341E7A87DE00C99CF8 /* Views */,
 				236F3EBD1E77C88900657429 /* Assets.xcassets */,
 				236F3EBF1E77C88900657429 /* LaunchScreen.storyboard */,
@@ -112,6 +142,28 @@
 				239834321E7A87D600C99CF8 /* EastEggView.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		23B548281EA9E53E007A3342 /* ZJCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				23354E601EAC945700C6FE7D /* ZJView */,
+				23B548291EA9E56E007A3342 /* ZJDate */,
+			);
+			name = ZJCocoa;
+			sourceTree = "<group>";
+		};
+		23B548291EA9E56E007A3342 /* ZJDate */ = {
+			isa = PBXGroup;
+			children = (
+				23B548331EA9F3F8007A3342 /* NSString+ZJDateFormat.h */,
+				23B548341EA9F3F8007A3342 /* NSString+ZJDateFormat.m */,
+				23B548361EA9F555007A3342 /* NSDate+ZJCategory.h */,
+				23B548371EA9F555007A3342 /* NSDate+ZJCategory.m */,
+				23B548391EA9F957007A3342 /* NSDateComponents+ZJCategory.h */,
+				23B5483A1EA9F957007A3342 /* NSDateComponents+ZJCategory.m */,
+			);
+			name = ZJDate;
 			sourceTree = "<group>";
 		};
 		23B7B8F81E7FE02900542301 /* JigSawPuzzleGameImages */ = {
@@ -194,6 +246,7 @@
 				236F3ED01E77C94F00657429 /* img3.jpg in Resources */,
 				236F3ED31E77C94F00657429 /* img6.jpg in Resources */,
 				236F3ECF1E77C94F00657429 /* img2.jpg in Resources */,
+				23B548431EAA0CBF007A3342 /* DateViewController.xib in Resources */,
 				236F3ECE1E77C94F00657429 /* img1.jpg in Resources */,
 				23B7B8FC1E80C5B400542301 /* Info.plist in Resources */,
 				236F3EBE1E77C88900657429 /* Assets.xcassets in Resources */,
@@ -207,11 +260,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B548351EA9F3F8007A3342 /* NSString+ZJDateFormat.m in Sources */,
 				236F3F091E77F21800657429 /* PuzzleImageView.m in Sources */,
+				23B5483B1EA9F957007A3342 /* NSDateComponents+ZJCategory.m in Sources */,
 				239834331E7A87D600C99CF8 /* EastEggView.m in Sources */,
+				23B548421EAA0CBF007A3342 /* DateViewController.m in Sources */,
 				236F3EB91E77C88900657429 /* JIgSawPuzzViewController.m in Sources */,
 				236F3EB61E77C88900657429 /* AppDelegate.m in Sources */,
 				236F3EB31E77C88900657429 /* main.m in Sources */,
+				230280C91EADA7BC009D0A2F /* UIView+frame.m in Sources */,
+				23B548381EA9F555007A3342 /* NSDate+ZJCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -319,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

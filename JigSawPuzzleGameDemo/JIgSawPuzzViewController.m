@@ -9,6 +9,7 @@
 #import "JIgSawPuzzViewController.h"
 #import "PuzzleImageView.h"
 #import "EastEggView.h"
+#import "DateViewController.h"
 
 #define kMainScreenWidth         ([UIScreen mainScreen].bounds).size.width              //屏幕的高度
 #define kMainScreenHeight        ([UIScreen mainScreen].bounds).size.height             //屏幕的宽度
@@ -354,9 +355,18 @@ static const CGFloat halfImageLength = 50.0f;
     self.pictureNumber++;
     if (self.pictureNumber == self.picturesArray.count) {
         self.pictureNumber = 0;
+        
     }
     self.string_ImageName = self.picturesArray[self.pictureNumber];
     [self initPuzzleImage];
+}
+
+- (IBAction)showFommatTime:(UIButton *)sender {
+    DateViewController *dateVc = [[DateViewController alloc]init];
+    [self presentViewController:dateVc animated:YES completion:^{
+        
+    }];
+    
 }
 
 - (void)removeSubViews{
